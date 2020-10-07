@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+  .act {
+      background-color: aqua;
+      margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+  .act h1{
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Jokerman";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+  }
+  .section{
+      height: 100%;
+   padding: 20px 0;
+   text-align: center;
+      font-size: 2.5rem;
+  }
+.new{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+  .new h1{
+    font-family: "Coiny";
+    font-size: 4vw;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-family: "Coiny";
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .index {
+    border-radius: 5px;
+    background-color: chartreuse;
+    padding: 2px;
+    font-family: "Times New Roman";
+    font-size: 1vw;
+  }
+  .ver{
+    font-size:3vw;
+    color:palevioletred;
+  }
+  .col-1 {
+    float: left;
+    width: 6%;
+    margin-top: 6px;
+    margin-left: 2%;
+  }
+  
+  .col-2 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+  }
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-1, .col-2, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  table {
+      width: 100%;
+      font-size: 2vw;
+    font-family: "Coiny";
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .latest table{
+    background: cadetblue;
+
+  }
+  .latest h1{
+    font-family: "Coiny";
+    font-size: 3vw;
+  }
+  .in h1{
+    font-family: "Cookie";
+    font-size: 3vw;
+  }
+#x{
+    font-size: 3vw;
+}
+img{ 
+    float: center;
+    justify-content: center;
+    width: 50%;
+    height: 60%;
+}
